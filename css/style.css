@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+img {
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.article {
+  display: flex;
+}
+.item {
+  flex: 1;
+  font-size: 1.5rem;
+}
+p.item::first-letter {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+section:nth-of-type(odd) {
+  background-color: rgb(209, 236, 240);
+}
+.list {
+  list-style: none;
+}
+nav {
+  margin: 30px;
+}
+footer nav {
+  text-align: end;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(29, 37, 37);
+}
+.back {
+  position: fixed;
+  top: 1rem;
+  color: rgb(29, 37, 37);
+  text-transform: uppercase;
+}
